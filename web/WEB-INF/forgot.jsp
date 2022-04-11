@@ -14,14 +14,13 @@
     <body>
         <h1>Forgot Password</h1>
         
-        <div class="alert alert-danger" role="alert">
-            ${alert}
-        </div>
-        
+            <br>${alert}
+ 
         <form action="forgot" method="post">
-        Please enter your email address to retrieve your password.<br>
-        Email Address: <input type="text" name="email"><br>
-        <input type="submit" value="Submit">
+            Please enter your email address to retrieve your password.<br><br>
+            Email Address: <input type="text" name="email" placeholder="joe.blowey@hotmail.com" required><br>
+            <input type="submit" value="Submit">
+            
         </form>
     </body>
 </html>
