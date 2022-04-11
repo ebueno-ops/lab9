@@ -12,6 +12,11 @@
         <title>JSP Page</title>
     </head>
     <body>
-        <h1>Hello World!</h1>
+        <h1>Forgot Password</h1>
+        <form action="forgot" method="post">
+        Please enter your email address to retrieve your password.<br>
+        Email Address: <input type="text" name="email"><br>
+        <input type="submit" value="forgot password">
+        </form>
     </body>
 </html>
