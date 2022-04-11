@@ -13,6 +13,11 @@
     </head>
     <body>
         <h1>Forgot Password</h1>
+        
+        <div class="alert alert-danger" role="alert">
+            ${alert}
+        </div>
+        
         <form action="forgot" method="post">
         Please enter your email address to retrieve your password.<br>
         Email Address: <input type="text" name="email"><br>
