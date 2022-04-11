@@ -18,4 +18,7 @@ public class AccountService {
         
         return null;
     }
+                String characters = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789~`!@#$%^&*()-_=+[{]}\\|;:\'\",<.>/?";
+                String pwd = RandomStringUtils.random( 8, characters );
+                tags.put("password", pwd);
 }
